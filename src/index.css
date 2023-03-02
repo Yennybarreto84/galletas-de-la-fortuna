@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+.fortuna__cards {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:4.5rem; 
+}
+
+.fortuna__cards--center{
+  width: 400px;
+  height: 200px;
+  background-color: beige;
+  margin-top: 10px;
+  border-radius: 10px;
+
+}
+.fortuna__parrafo {
+  margin-top: 1.8rem;
+  padding: 10px; 
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.fortuna__fuente{
+  display: block;
+  padding: 20px ;
+  text-align: right;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.fortuna__title{
+text-transform: uppercase;
+font-size: 2.3rem;
+width: 400px;
+text-align: center;
+margin-top: 20px;
+
+}
+
+button{
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 100px;
+  background-color: lightgrey;
+  border-radius: 10px;
+  
+}
+@media screen and (max-width:500px) {
+  .fortuna__cards--center{ 
+    width: 200px;
+  }
+  .fortuna__title{
+    font-size: 12px;
+  }
+}
+
